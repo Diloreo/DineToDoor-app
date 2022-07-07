@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">AdminPortal</string>
+    <string name="admin_login">Admin Login</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="enter_order_status">Enter Order Status</string>
+    <string name="enter_order_id">Enter Order ID</string>
+    <string name="enter_order_number">Enter Order Number</string>
+    <string name="enter_order_statuss">Enter Order Status</string>
+    <string name="donee">NEXT ORDER</string>
+    <string name="back">BACK</string>
+    <string name="next">Next</string>
+    <string name="nexTt">NEXT</string>
+    <string name="nxt">NEXT</string>
+    <string name="nextbtn">Next</string>
+</resources>

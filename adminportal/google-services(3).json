@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "922713178429",
+    "firebase_url": "https://dinetodoorapp-default-rtdb.firebaseio.com",
+    "project_id": "dinetodoorapp",
+    "storage_bucket": "dinetodoorapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922713178429:android:da2296631565017ae18554",
+        "android_client_info": {
+          "package_name": "com.example.adminportal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "922713178429-u7hsre8m23jj7562o3rh5qfjr3hklm19.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx7wjAN0ONd7t_Iv7oaV9a-DoXoydViZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "922713178429-u7hsre8m23jj7562o3rh5qfjr3hklm19.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:922713178429:android:a2de0832d4a5da49e18554",
+        "android_client_info": {
+          "package_name": "com.example.dinetodoorapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "922713178429-u7hsre8m23jj7562o3rh5qfjr3hklm19.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx7wjAN0ONd7t_Iv7oaV9a-DoXoydViZE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "922713178429-u7hsre8m23jj7562o3rh5qfjr3hklm19.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

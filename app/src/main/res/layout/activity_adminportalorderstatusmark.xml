@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".adminportalorderstatusmark">
+
+
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:layout_marginEnd="24dp"
+        android:text="back"
+        app:layout_constraintEnd_toStartOf="@id/btnNext"
+        app:layout_constraintTop_toBottomOf="@id/checkBox4Delivered" />
+
+    <TextView
+        android:id="@+id/tvEntStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="enter_order_status"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/edOrderno"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="enter_order_number"
+        android:minHeight="48dp"
+
+        android:textColorHint="#546E7A"
+        app:layout_constraintTop_toBottomOf="@id/tvEntStatus"
+        android:importantForAutofill="no"
+        android:inputType="text" />
+
+    <CheckBox
+        android:id="@+id/checkBoxPrepared"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="4dp"
+        android:minHeight="48dp"
+        android:text="prepared"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@id/checkBox2Packing"
+
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edOrderno" />
+
+    <CheckBox
+        android:id="@+id/checkBox2Packing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:minHeight="48dp"
+        android:text="packing"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@id/checkBox3Ready"
+        app:layout_constraintEnd_toEndOf="@id/checkBoxPrepared"
+
+        app:layout_constraintStart_toStartOf="@id/checkBoxPrepared"
+        app:layout_constraintTop_toBottomOf="@id/checkBoxPrepared" />
+
+    <CheckBox
+        android:id="@+id/checkBox3Ready"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:minHeight="48dp"
+        android:text="ready"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@id/checkBox4Delivered"
+        app:layout_constraintEnd_toEndOf="@id/checkBoxPrepared"
+        app:layout_constraintStart_toStartOf="@id/checkBoxPrepared"
+        app:layout_constraintTop_toBottomOf="@id/checkBox2Packing" />
+
+    <CheckBox
+        android:id="@+id/checkBox4Delivered"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:minHeight="48dp"
+        android:text="delivered"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@id/btnNext"
+        app:layout_constraintEnd_toEndOf="@id/checkBox2Packing"
+        app:layout_constraintStart_toStartOf="@id/checkBox3Ready"
+        app:layout_constraintTop_toBottomOf="@id/checkBox3Ready" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="next_order"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/checkBox4Delivered"
+        app:layout_constraintTop_toBottomOf="@id/checkBox4Delivered" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
